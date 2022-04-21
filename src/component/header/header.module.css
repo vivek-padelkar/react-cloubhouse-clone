@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f0e4;
+}
+
+.header i {
+  font-size: 25px;
+  color: black;
+}
+
+.header img {
+  width: 30px;
+  margin: 0 0.8em;
+}
+.navItems i {
+  margin: 0 0.8em;
+}

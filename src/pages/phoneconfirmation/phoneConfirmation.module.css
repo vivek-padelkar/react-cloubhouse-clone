@@ -1,0 +1,86 @@
+.PhoneConfrimContainer {
+  height: 100vh;
+  padding: 3em 1.7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f0e4;
+  position: relative;
+}
+.PhoneConfrimContainer h1 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: var(--textColour);
+}
+.PhoneConfrimContainer p {
+  font-size: 0.77em;
+  font-weight: 400;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 270px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.PhoneConfrimContainer > p > span {
+  font-weight: 500;
+}
+.btnNext {
+  background: var(--btnBgolor);
+  color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 500;
+}
+.BackButton {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 2px;
+}
+
+.btnNext :hover {
+}
+.NotificationContainer {
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 0px 0px 5px #cccccc;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.NotificationContainer h3 {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0.3em;
+}
+.NotificationContainer p {
+  font-size: 0.825em;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: auto;
+}
+
+.NotificationContainer .ActionButton {
+  position: relative;
+}
+
+.ActionButtonContainer .ActionButton a {
+  display: inline-block;
+  width: 50%;
+}
+
+.NotificationContainer .hand_icon {
+  position: absolute;
+  bottom: -80px;
+  right: 5px;
+  width: 100px;
+}
