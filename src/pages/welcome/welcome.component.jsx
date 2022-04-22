@@ -23,7 +23,7 @@ const Welcome = () => {
 
       <div className={style.Actionbutton}>
         <Link
-          to="/getusername"
+          to="/invite"
           style={{ textDecoration: 'none', color: 'inherit' }}
         >
           <a className="link-primary" href='%'>Get your username</a>

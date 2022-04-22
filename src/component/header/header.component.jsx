@@ -8,7 +8,7 @@ const Header = () => {
         <i className="bi bi-search" />
       </Link>
       <div className={style.navItems}>
-        <Link to="/friendsInvite">
+        <Link to="/invite">
           <i class="bi bi-envelope-paper" />
         </Link>
         <Link to="/upcoming">
