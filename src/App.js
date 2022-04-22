@@ -7,6 +7,7 @@ import { CodeConfirm } from './pages/codeConfirm/codeConfirm.component'
 import AllowNotification from './pages/allowNotification/allowNotification.component'
 import AppLayout from './pages/layouts/appLayout.component'
 import Home from './pages/home/home.component'
+import Expolre from './pages/expolre/explore.component'
 
 function App() {
   return (
@@ -27,10 +28,11 @@ function App() {
           </PlannedLayout>
         </Route>
 
-        <Route exact path={['/home']}>
+        <Route exact path={['/home', '/explore']}>
           <AppLayout>
             <Switch>
               <Route exact path="/home" component={Home} />
+              <Route exact path="/explore" component={Expolre} />
             </Switch>
           </AppLayout>
         </Route>

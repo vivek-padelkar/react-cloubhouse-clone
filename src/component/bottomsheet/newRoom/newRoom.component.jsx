@@ -2,9 +2,10 @@ import { useState } from 'react'
 import style from './newRoom.module.css'
 import { AiOutlineFile, AiOutlinePlus } from 'react-icons/ai'
 import { BsMicMuteFill, BsMicFill } from 'react-icons/bs'
+import Expolre from '../../../pages/expolre/explore.component'
 
 const NewRoom = ({ cardDetail, setSheetVisible }) => {
-  const [micMuteVisible, setMicMuteVisible] = useState(true)
+  const [micMuteVisible, setMicMuteVisible] = useState(false)
   const [itemsVisible, setItemVisibles] = useState(true)
   const card = cardDetail
 
@@ -70,6 +71,7 @@ const NewRoom = ({ cardDetail, setSheetVisible }) => {
         <div className={style.footer}>
           <button onClick={() => setSheetVisible(false)}>
             <img src="/images/hand_peace.png" alt="eace" />
+            <span>Leave Quietly</span>
           </button>
           <div>
             <button>

@@ -103,3 +103,46 @@ export const newRoomdata = {
     },
   ],
 }
+
+export const exploreData = {
+  people: [
+    {
+      title: 'April unerwood',
+      description: " Ceo and founder and normal people",
+    },
+    {
+      title: 'DoomsDay clock summit',
+      description: "CEO Mr. Nadinose and co.",
+    },
+    {
+      title: 'karl susano',
+      description: " naruto and co.",
+    }
+  ],
+  conversation: [
+    {
+      title: 'Tech',
+      description: "ventures, captial we need to meet here",
+    },
+    {
+      title: 'Socer',
+      description: "we still cant decide CR7 X M10",
+    },
+    {
+      title: 'Philosphy',
+      description: "can Sherlock meet janelia, lets discuss",
+    },
+    {
+      title: 'Off-topic',
+      description: "do we really need , karl theory , we can do it better without it",
+    },
+    {
+      title: 'Karl susano',
+      description: "When cups and bottels are together cups always wins",
+    },
+    {
+      title: 'Naruto universe',
+      description: "When did Gara will stop to abused others?",
+    }
+  ]
+}

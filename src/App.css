@@ -19,6 +19,7 @@ body {
   color: #53a6eb;
   font-weight: 500;
 }
+
 .notificationbtn {
   display: inline-block;
   width: 50%;
@@ -32,12 +33,13 @@ body {
 }
 
 .app_layout {
-  background-color: #f2f0e4;
-  height: 100vh;
+  background-color: red;
+  max-height: 100vh;
   position: relative;
   width: 100%;
   max-width: 500px;
   margin: auto;
+  /* overflow: hidden; */
 }
 
 .letGoBtn {
