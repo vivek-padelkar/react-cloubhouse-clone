@@ -1,4 +1,5 @@
 import './App.css'
+import 'antd/dist/antd.css'
 import PlannedLayout from './pages/layouts/plannedLayout.component'
 import Welcome from './pages/welcome/welcome.component'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -8,6 +9,7 @@ import AllowNotification from './pages/allowNotification/allowNotification.compo
 import AppLayout from './pages/layouts/appLayout.component'
 import Home from './pages/home/home.component'
 import Expolre from './pages/expolre/explore.component'
+import Profile from './pages/profile/profile.compoenent'
 
 function App() {
   return (
@@ -28,11 +30,12 @@ function App() {
           </PlannedLayout>
         </Route>
 
-        <Route exact path={['/home', '/explore']}>
+        <Route exact path={['/home', '/explore', '/profile']}>
           <AppLayout>
             <Switch>
               <Route exact path="/home" component={Home} />
               <Route exact path="/explore" component={Expolre} />
+              <Route exact path="/profile" component={Profile} />
             </Switch>
           </AppLayout>
         </Route>

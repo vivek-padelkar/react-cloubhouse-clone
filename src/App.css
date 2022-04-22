@@ -33,8 +33,7 @@ body {
 }
 
 .app_layout {
-  background-color: red;
-  max-height: 100vh;
+  background-color: #f2f0e4;
   position: relative;
   width: 100%;
   max-width: 500px;
